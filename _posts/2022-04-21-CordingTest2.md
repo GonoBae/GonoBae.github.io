@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[코딩테스트] 첫 번째 : 설탕 배달"
+title: "[코딩테스트] 두 번째 : ATM"
 categories: CordingTest
 tag: CordingTest
 ---
