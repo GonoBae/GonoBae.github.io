@@ -9,7 +9,7 @@ tag: Portfolio
 
 학원 다니며 만든 첫 작품이다.
 
-![GeoStrike](../images/2022-04-21-FirstPortfolio/GeoStrike.PNG)
+![GeoStrike](C:\Users\UserK\Desktop\Sandor2889-github-blog\Sandor2889.github.io\images\GeoStrike-16505266414772.PNG)
 
 [ 게임을 만들며…]
 
