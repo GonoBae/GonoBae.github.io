@@ -1,15 +1,15 @@
 ---
-layout: post  
+layout: single 
 title: "[포트폴리오] 첫 작품 : GeoStrike"
+categories: Portfolio
+tag: Portfolio
 ---
 
 소개 링크 : [GeoStrike](https://youtu.be/RB4IQlWPibs)
 
 학원 다니며 만든 첫 작품이다.
 
-
-![GeoStrike](/images/GeoStrike.PNG)
-
+![GeoStrike](../images/2022-04-21-FirstPortfolio/GeoStrike.PNG)
 
 [ 게임을 만들며…]
 
