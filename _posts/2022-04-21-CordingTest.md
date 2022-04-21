@@ -2,7 +2,7 @@
 layout: single 
 title: "[코딩테스트] 첫 번째 : 설탕 배달
 categories: CordingTest
-tag: C#, C++
+tag: CordingTest
 ---
 
 한 문제를 가지고 C#과 C++을 이용해 풀어 나갈 것이다.
