@@ -68,7 +68,7 @@ namespace ConsoleApp1
 }
 ```
 
-![image-20220424193337281](../images/2022-04-24-CordingTest4/image-20220424193337281.png)
+![image-20220424193337281](../../images/2022-04-24-CordingTest4/image-20220424193337281.png)
 
  Tuple과 Linq의 Orderby,ThenBy에 대해 처음 사용해보았다.
 
@@ -122,6 +122,6 @@ int main()
 }
 ```
 
-![image-20220424193317083](../images/2022-04-24-CordingTest4/image-20220424193317083.png)
+![image-20220424193317083](../../images/2022-04-24-CordingTest4/image-20220424193317083.png)
 
 자료 구조 타입명이나 매소드들의 이름과 사용법이 C#과 조금씩 차이가 있으니 잘 구분해보자
