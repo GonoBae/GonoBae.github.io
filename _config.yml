@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
+#remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -19,7 +19,7 @@ locale                   : "ko"
 title                    : "Dev Pages"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "GonoBae"
+name                     : "KwangYeol Bae"
 description              : "An amazing website."
 url                      : "https://GonoBae.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -207,6 +207,10 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+  block:
+  line_number: true
 
 
 # Sass/SCSS
@@ -286,6 +290,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      show_date: true
+      comments: true
       share: true
       related: true
+      sidebar_main: true
