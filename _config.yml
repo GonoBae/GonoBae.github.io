@@ -61,7 +61,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
 search                   : true
-search_full_content      : # true, false (default)
+search_full_content      : true
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -104,7 +104,7 @@ analytics:
 # Site Author
 author:
   name             : "GonoBae"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/michael-rose.jpg"
   bio              : "I am an **amazing** person."
   location         : "Ulsan, Korea"
   email            : "qldrhqorhsh@naver.com"
@@ -123,7 +123,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "GonoBae"
+      url: "https://github.com/GonoBae"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
