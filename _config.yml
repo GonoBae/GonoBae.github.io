@@ -42,7 +42,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : #"github-dark" #"github-light" (default), 
+    theme                : "github-dark" #"github-light" (default), 
     label                : #"comment"
     issue_term           : #"pathname" (default)
   giscus:
