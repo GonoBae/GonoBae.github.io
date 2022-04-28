@@ -1,11 +1,11 @@
 ---
 layout: single
-title: "[코딩테스트] 여섯 번째 : 보물"
+title: "[코딩테스트] 여섯 번째 : 잃어버린 괄호"
 categories: CordingTest
 tag: CordingTest
 ---
 
-![image-20220427214535320](../images/2022-04-27-CordingTest6/image-20220427214535320.png)
+![image-20220427214535320](../../images/2022-04-27-CordingTest6/image-20220427214535320.png)
 
 
 
