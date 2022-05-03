@@ -21,4 +21,4 @@ int a, b, c;
 단순 수학적인 계산과는 다르다는 점 기억하자. 
 
 
-![SecondLevel](../images/2022-05-03-CordingTestLevel2/SecondLevel.PNG)
+![SecondLevel](../../images/2022-05-03-CordingTestLevel2/SecondLevel.PNG)

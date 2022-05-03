@@ -26,4 +26,4 @@ std::fixed;
 소수점 고정 해제
 std::cout.unsetf(ios::fixed);
 
-![FirstLevel](../images/2022-05-01-CordingTestLevel1/FirstLevel.PNG)
+![FirstLevel](../../images/2022-05-01-CordingTestLevel1/FirstLevel.PNG)
