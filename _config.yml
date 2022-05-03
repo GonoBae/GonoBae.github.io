@@ -211,7 +211,7 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     block:
-      line_number: true
+      line_numbers: true
 
 
 # Sass/SCSS
