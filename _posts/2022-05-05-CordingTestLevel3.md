@@ -1,0 +1,32 @@
+---
+layout: single
+title: "[코딩테스트] 반복문"
+categories: CordingTest
+tag: CordingTest
+---
+
+단계별 세번째 14문제이다.
+
+### [C++]
+
+printf, scanf 와 cin, cout의 차이
+
+printf, scanf가 속도가 빨라서 많은 사람들이 알고리즘 풀이에 이를 이용한다.
+
+그렇다면 나도 이걸 써야하는 것일까...?
+
+cin, cout는 이러한 구문을 추가해줘야 더 빠르다고 한다.
+
+> ios_base::sync_with_stdio 구문은 c의 stdio와 cpp의 iostream을 동기화시켜주는 역할을 
+> 하는데, 이 때 iostream과 stdio의 버퍼를 모두 사용하기 때문에 딜레이가 발생합니다.
+> 따라서, ios_base::sync_with_stdio(false); 
+> 코드를 작성해줌으로써 동기화를 비활성화시켜줍니다. 
+
+혹시 모르니 둘다 익혀보자.
+
+> 또한, endl; 보다 \n가 더 빠르다고 한다.
+
+```c++ 
+ios_base::sync_with_stdio(false);
+cin.tie(NULL);
+```
