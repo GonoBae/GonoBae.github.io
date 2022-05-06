@@ -80,6 +80,6 @@ int main()
 }
 ```
 
-> 결과값
+> 결과값  
 ![Result2](https://user-images.githubusercontent.com/87271529/167162545-aac026a5-08ec-413a-9c0c-de01c03a4c3d.png)
 
