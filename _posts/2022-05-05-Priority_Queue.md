@@ -40,3 +40,19 @@ int main()
 > 결과값
 ![Result1](https://user-images.githubusercontent.com/87271529/167148484-ea6eaff7-23fc-483c-8d70-4ea6a1bf3d1a.png)
 
+그렇다면 오름차순으로 정렬하고 싶다면 어떻게 해야할까?<br>
+`priority_queue<int> PQ;` 를 `priority_queue<int, vector<int>, greater<int>> PQ;` 이렇게 바꿔주면 된다. <br>
+기본적으로 `priority_queue` 는 다음과 같은 형태를 가진다.
+
+```Cpp
+#include<queue>
+
+priority_queue<자료형, 구현체, 비교연산자> PQ;
+```
+
+그냥 `priority_queue` 를 선언하면 기본형으로 생성된다.
+
+```Cpp
+priority_queue<int, vector<int>, less<int>> PQ;
+```
+
