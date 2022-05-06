@@ -64,7 +64,7 @@ priority_queue<int, vector<int>, less<int>> PQ;
 using namespace std;
 int main()
 {
-    priority_queue<int, vector<int>, less<int>> PQ;
+    priority_queue<int, vector<int>, greater<int>> PQ;
     PQ.push(2);
     PQ.push(1);
     PQ.push(5);
