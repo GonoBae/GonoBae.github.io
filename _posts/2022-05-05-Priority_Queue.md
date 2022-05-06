@@ -15,7 +15,7 @@ n 개의 원소를 정렬할 때 O(nlogn) 의 시간복잡도를 갖는다. <br>
 - Heap 이라는 자료구조를 사용한다. ( 속도가 빠르기 때문 ) <br>
 - 기본적으로 가장 큰 값이 Top 을 유지하고, 내림차순으로 정렬되게끔 설계되어 있다.
 
-```CPP
+```cpp
 #include <iostream>
 #include <queue>
 using namespace std;
@@ -44,7 +44,7 @@ int main()
 `priority_queue<int> PQ;` 를 `priority_queue<int, vector<int>, greater<int>> PQ;` 이렇게 바꿔주면 된다. <br>
 기본적으로 `priority_queue` 는 다음과 같은 형태를 가진다.
 
-```CPP
+```cpp
 #include<queue>
 
 priority_queue<자료형, 구현체, 비교연산자> PQ;
@@ -52,7 +52,7 @@ priority_queue<자료형, 구현체, 비교연산자> PQ;
 
 그냥 `priority_queue` 를 선언하면 아래와 같이 기본형으로 생성된다.
 
-```CPP
+```cpp
 priority_queue<int, vector<int>, less<int>> PQ;
 ```
 
