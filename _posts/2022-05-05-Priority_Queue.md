@@ -50,7 +50,7 @@ int main()
 priority_queue<자료형, 구현체, 비교연산자> PQ;
 ```
 
-그냥 `priority_queue` 를 선언하면 아래와 같이 기본형으로 생성된다.
+그냥 `priority_queue<int>` 를 선언하면 아래와 같이 기본형으로 생성된다.
 
 ```cpp
 priority_queue<int, vector<int>, less<int>> PQ;
