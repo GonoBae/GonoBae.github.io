@@ -17,6 +17,12 @@ printf, scanf가 속도가 빨라서 많은 사람들이 알고리즘 풀이에 
 
 cin, cout는 이러한 구문을 추가해줘야 더 빠르다고 한다.
 
+
+```c++ 
+ios_base::sync_with_stdio(false);
+cin.tie(NULL);
+```
+
 > ios_base::sync_with_stdio 구문은 c의 stdio와 cpp의 iostream을 동기화시켜주는 역할을 
 > 하는데, 이 때 iostream과 stdio의 버퍼를 모두 사용하기 때문에 딜레이가 발생합니다.
 > 따라서, ios_base::sync_with_stdio(false); 
@@ -26,10 +32,6 @@ cin, cout는 이러한 구문을 추가해줘야 더 빠르다고 한다.
 
 > 또한, endl; 보다 \n가 더 빠르다고 한다.
 
-```c++ 
-ios_base::sync_with_stdio(false);
-cin.tie(NULL);
-```
 
 > cin.eof();
 - bool을 반환.
