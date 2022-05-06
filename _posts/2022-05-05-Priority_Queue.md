@@ -83,3 +83,4 @@ int main()
 > 결과값  
 ![Result2](https://user-images.githubusercontent.com/87271529/167162545-aac026a5-08ec-413a-9c0c-de01c03a4c3d.png)
 
+> 관련문제   [Priority_Queue 관련문제](https://gonobae.github.io/codingtest/Q_1715/)
