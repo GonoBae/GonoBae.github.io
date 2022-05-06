@@ -30,3 +30,19 @@ cin, cout는 이러한 구문을 추가해줘야 더 빠르다고 한다.
 ios_base::sync_with_stdio(false);
 cin.tie(NULL);
 ```
+
+> cin.eof();
+- bool을 반환.
+- 파일의 끝을 의미하는 EOF를 읽게 되면, true를 반환.
+
+```c++
+
+int main() 
+{
+    //EOF를 만날때까지 무한 입력
+    while (!cin.eof()) 
+    {    
+        cin >> n;
+    }
+}
+```
