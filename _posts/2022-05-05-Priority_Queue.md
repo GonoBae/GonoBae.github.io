@@ -37,7 +37,7 @@ int main()
 }
 ```
 
-> 결과값    
+> 결과값  
 ![Result1](https://user-images.githubusercontent.com/87271529/167148484-ea6eaff7-23fc-483c-8d70-4ea6a1bf3d1a.png)
 
 그렇다면 오름차순으로 정렬하고 싶다면 어떻게 해야할까?<br>
