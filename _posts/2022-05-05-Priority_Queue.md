@@ -58,3 +58,28 @@ priority_queue<int, vector<int>, less<int>> PQ;
 
 여기서 비교연산자인 `less<int>` 를 `greater<int>` 로 바꿔주면 된다는 것이다.
 
+```cpp
+#include <iostream>
+#include <queue>
+using namespace std;
+int main()
+{
+    priority_queue<int, vector<int>, less<int>> PQ;
+    PQ.push(2);
+    PQ.push(1);
+    PQ.push(5);
+    PQ.push(3);
+    PQ.push(7);
+    PQ.push(6);
+    while(!PQ.empty())
+    {
+        cout << PQ.top() << ' ';
+        PQ.pop();
+    }
+    return 0;
+}
+```
+
+> 결과값
+![Result2](https://user-images.githubusercontent.com/87271529/167162545-aac026a5-08ec-413a-9c0c-de01c03a4c3d.png)
+
