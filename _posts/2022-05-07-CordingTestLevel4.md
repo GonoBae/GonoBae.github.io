@@ -15,7 +15,7 @@ tag: CordingTest
 
 C#과는 생긴게 조금 다르니 조심하자
 
-```C++
+```c++
 // for (type : Arr)
 for (char ch : strSum)
     {
@@ -27,7 +27,7 @@ for (char ch : strSum)
 - 동적 할당에는 사용 할 수 없으니 vector를 이용해야 한다.
 
 #### 4344 : 평균은 넘겠지
-```C++
+```c++
 #include <iostream>
 #include <vector>
 
