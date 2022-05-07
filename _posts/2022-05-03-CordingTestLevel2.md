@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[코딩테스트] 조건문"
+title: "[코딩테스트] Level2 : 조건문"
 categories: CordingTest
 tag: CordingTest
 ---

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[코딩테스트] 입출력과 사칙연산"
+title: "[코딩테스트] Level1 : 입출력과 사칙연산"
 categories: CordingTest
 tag: CordingTest
 ---
