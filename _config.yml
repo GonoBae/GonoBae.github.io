@@ -31,10 +31,10 @@ future                   : true
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), , "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "utterances" # false (default), ,"disqus" "discourse", "facebook", "staticman", "staticman_v2", , "giscus", "custom"
   disqus:
-    comments             : true
-    shortname            : 'https-gonobae-github-io'
+    comments             : # true
+    shortname            : # 'https-gonobae-github-io'
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -44,8 +44,8 @@ comments:
     colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : "github-dark" #"github-light" (default), 
-    label                : #"comment"
-    issue_term           : #"pathname" (default)
+    label                : "comment"
+    issue_term           : "pathname" (default)
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
     category_name        : # Full text name of the category
