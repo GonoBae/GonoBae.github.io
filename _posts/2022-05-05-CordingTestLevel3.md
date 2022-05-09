@@ -9,13 +9,10 @@ tag: CordingTest
 
 ### [C++]
 
-printf, scanf 와 cin, cout의 차이
-
-printf, scanf가 속도가 빨라서 많은 사람들이 알고리즘 풀이에 이를 이용한다.
-
-그렇다면 나도 이걸 써야하는 것일까...?
-
-cin, cout는 이러한 구문을 추가해줘야 더 빠르다고 한다.
+printf, scanf 와 cin, cout의 차이 <br>
+printf, scanf가 속도가 빨라서 많은 사람들이 알고리즘 풀이에 이를 이용한다. <br>
+그렇다면 나도 이걸 써야하는 것일까...? <br>
+cin, cout는 이러한 구문을 추가해줘야 더 빠르다고 한다. <br>
 
 
 ```c++ 

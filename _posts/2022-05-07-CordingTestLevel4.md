@@ -5,9 +5,8 @@ categories: CordingTest
 tag: CordingTest
 ---
 
-총 7문제 였다
-
-조금 힘들었던 문제가 있었음으로 해당 코드는 올려본다.
+총 7문제 였다. <br>
+조금 힘들었던 문제가 있었음으로 해당 코드는 올려본다. <br>
 
 ### [C++]
 
@@ -23,7 +22,7 @@ for (char ch : strSum)
     }
 ```
 
-- for-each 문으로 값을 바꾸려면 &(ch)참조를 해야 한다.
+- for-each 문으로 값을 바꾸려면 &(ch)참조를 해야 한다. 
 - 동적 할당에는 사용 할 수 없으니 vector를 이용해야 한다.
 
 #### 4344 : 평균은 넘겠지
@@ -80,6 +79,5 @@ int main()
 }
 ```
 
-아무튼 이번에도 완료 !!
-
+아무튼 이번에도 완료 !! <br>
 ![FourthLevel](../../images/2022-05-07-CordingTestLevel4/FourthLevel.PNG)
