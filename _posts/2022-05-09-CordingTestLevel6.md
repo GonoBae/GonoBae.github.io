@@ -1,0 +1,27 @@
+---
+layout: single
+title: "[코딩테스트] Level6 : 문자열"
+categories: CordingTest
+tag: CordingTest
+---
+
+
+### [C++]
+
+
+문자를 int로 캐스팅 하면 ASCII 코드로 전혀 다른 숫자가 나온다. <br>
+때문에 기준이 되는 ASCII 몇개를 알고 있어야 도움이 된다. <br>
+
+> ASCII
+> '0' = 48 ('1' 부터 +1, 증가)
+> 'a' = 97 ('b' 부터 +1, 증가)
+> 'A' = 65 ('B' 부터 +1, 증가)
+
+
+공백이 있는 문자열을 입력 받으려면 getline()을 사용해야 한다. <br>
+cin << 을 따로 쓰지 않아도 입력 역할을 해준다.
+
+> #include <string>
+> string input;
+> getline(cin, input);
+
