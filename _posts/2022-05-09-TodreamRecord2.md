@@ -17,7 +17,7 @@ tag: Portfolio
 배경 작업만 하다보니 코딩 하고 싶어진다... <br>
 
 ![City1](../../images/2022-05-09-TodreamRecord2/City1.PNG) <br>
-![City2](../images/2022-05-09-TodreamRecord2/City2.PNG)
+![City2](../../images/2022-05-09-TodreamRecord2/City2.PNG)
 
 하나하나 건물들을 조합해서 만들고 있다. <br>
 아무래도 시간이 부족하니 대강 지형만 잡고 물리구현에 신경 써야 할 것 같다. <br>
