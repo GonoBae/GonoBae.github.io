@@ -21,7 +21,29 @@ tag: CordingTest
 공백이 있는 문자열을 입력 받으려면 getline()을 사용해야 한다. <br>
 cin << 을 따로 쓰지 않아도 입력 역할을 해준다.
 
-> #include <string>
-> string input;
-> getline(cin, input);
+```c++
+#include <string>
 
+string input;
+getline(cin, input);
+```
+
+문자열의 문자 찾기와 문자 바꾸기 <br>
+>input.replace()
+
+```c++
+#include <string>
+
+string input;  
+
+// find()에서 문자를 찾지 못하면 -1을 반환한다.
+if(input.find() == string::npos)
+{
+    // 실행
+}
+
+// 문자 변환
+input.replace(input.find("beforStr"), str.length(), "afterStr")
+```
+
+![SixthLevel](../../images/2022-05-09-CordingTestLevel6/SixthLevel.PNG)
