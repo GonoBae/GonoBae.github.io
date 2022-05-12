@@ -81,8 +81,8 @@ int main()
 }
 ```
 
-이 문제에서 stack 과 함께 공부할 수 있는 것은 문자열에 대한 것이다.
-`#include <cstring>` 헤더에서 사용할 수 있는 `strcmp` 함수이다.
+이 문제에서 stack 과 함께 공부할 수 있는 것은 문자열에 대한 것이다. <br>
+`#include <cstring>` 헤더에서 사용할 수 있는 `strcmp` 함수이다. <br>
 문자열을 비교하는 이 함수는 다음 예시처럼 쓰인다.
 
 > char c[] = "ABCDEFG"; <br>
