@@ -87,9 +87,9 @@ int main()
 
 > char c[] = "ABCDEFG"; <br>
 > char d[] = "ABCDEFG"; <br>
-> strcmp(c, d);         // --> 문자열이 같으므로 0 을 반환 <br>
-> strcmp(c, "BBCDEFG"); // --> c 와 "BBCDEFG" 의 첫 번째 문자가 다름. A < B 이므로 음수 반환 <br>
-> strcmp(c, "AACDEFG"); // --> c 와 "AACDEFG" 의 두 번째 문자가 다름. B > A 이므로 양수 반환 <br>
+> strcmp(c, d);         // --> 문자열이 <u>같으므로</u> <span style="color:yellow"> 0 을 반환 </span> <br>
+> strcmp(c, "BBCDEFG"); // --> c 와 "BBCDEFG" 의 <u>첫 번째 문자가 다름.</u> <span style="color:yellow"> A < B 이므로 음수 반환 </span> <br>
+> strcmp(c, "AACDEFG"); // --> c 와 "AACDEFG" 의 <u>두 번째 문자가 다름.</u> <span style="color:yellow"> B > A 이므로 양수 반환 </span> <br>
 
 ```cpp
 #include <iostream>
