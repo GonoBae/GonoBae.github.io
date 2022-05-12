@@ -10,8 +10,8 @@ tags:
 # Stack에 대해 알아보자.
 
 > <span style="color:yellow">Stack</span>
-> LIFO (Last In First Out) 로써 먼저 들어간 데이터가 늦게 나오게 되는 구조이다. <br>
-> #include&#60;stack&#62; 으로 사용 가능하며 push , pop , top , empty , size 함수를 가진다.
+> - LIFO (Last In First Out) 로써 먼저 들어간 데이터가 늦게 나오게 되는 구조이다. <br>
+> - #include&#60;stack&#62; 으로 사용 가능하며 push , pop , top , empty , size 함수를 가진다.
 
 ![1](https://user-images.githubusercontent.com/87271529/168085166-d4e82515-bd97-4228-a15a-4b835d0729dd.jpeg)
 
