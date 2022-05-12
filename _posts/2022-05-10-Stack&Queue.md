@@ -85,11 +85,11 @@ int main()
 `#include <cstring>` 헤더에서 사용할 수 있는 `strcmp` 함수이다.
 문자열을 비교하는 이 함수는 다음 예시처럼 쓰인다.
 
-> char c[] = "ABCDEFG";
-> char d[] = "ABCDEFG";
-> strcmp(c, d);         // --> 문자열이 같으므로 0 을 반환
-> strcmp(c, "BBCDEFG"); // --> c 와 "BBCDEFG" 의 첫 번째 문자가 다름. A < B 이므로 음수 반환
-> strcmp(c, "AACDEFG"); // --> c 와 "AACDEFG" 의 두 번째 문자가 다름. B > A 이므로 양수 반환
+> char c[] = "ABCDEFG"; <br>
+> char d[] = "ABCDEFG"; <br>
+> strcmp(c, d);         // --> 문자열이 같으므로 0 을 반환 <br>
+> strcmp(c, "BBCDEFG"); // --> c 와 "BBCDEFG" 의 첫 번째 문자가 다름. A < B 이므로 음수 반환 <br>
+> strcmp(c, "AACDEFG"); // --> c 와 "AACDEFG" 의 두 번째 문자가 다름. B > A 이므로 양수 반환 <br>
 
 ```cpp
 #include <iostream>
