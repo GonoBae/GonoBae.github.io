@@ -54,6 +54,13 @@
                         <li><a href="/categories/knowledge" class=""> 잡동사니 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Book" %}
+                        <li><a href="/categories/book" class=""> 책 읽기 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
             </ul>    
       </li>
   </ul>
