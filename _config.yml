@@ -66,7 +66,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : true
+search                   : # true
 search_full_content      : # true
 search_provider          : # lunr (default), algolia, google
 algolia:
