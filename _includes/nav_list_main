@@ -34,7 +34,7 @@
         <span class="nav__sub-title">C++</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Cpp" %}
+                    {% if category[0] == "CppStudy" %}
                         <li><a href="/categories/cppStudy" class=""> C++ Study ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
@@ -42,7 +42,7 @@
         <span class="nav__sub-title">C#</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "CSharp" %}
+                    {% if category[0] == "CSharpStudy" %}
                         <li><a href="/categories/csharpStudy" class=""> C# Study ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
