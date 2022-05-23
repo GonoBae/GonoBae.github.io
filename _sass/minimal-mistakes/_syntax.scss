@@ -64,12 +64,17 @@ figure.highlight {
 
 .highlight pre {
   width: 100%;
+  font-family: $monospace;
 }
 
 .highlight .hll {
   background-color: $base06;
 }
 .highlight {
+  * {
+    font-family: $D2coding;
+  }
+
   .c {
     /* Comment */
     color: $base04;
