@@ -1,6 +1,7 @@
 /* ==========================================================================
    SINGLE PAGE/POST
    ========================================================================== */
+
 * {
   font-family: $sans-serif;
 }
@@ -31,6 +32,10 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
           flex-direction: column;
+}
+
+div.donation-btn {
+  text-align: center;
 }
 
 .initial-content,
@@ -76,7 +81,7 @@ body {
   line-height: 1;
 
   a {
-    color: $text-color;
+    color: $primary-color;
     text-decoration: none;
   }
 
@@ -91,10 +96,12 @@ body {
 }
 
 .page__content {
+
   img {
     margin-top: 1.2em;
     margin-bottom: 1.2em;
   }
+
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
@@ -122,13 +129,7 @@ body {
   dl {
     font-size: 1em;
   }
-  
-  p,
-  li,
-  dl {
-    font-size: 1em;
-  }
-  
+
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
@@ -173,6 +174,10 @@ body {
     margin-top: -1.5em;
     padding-left: 1.25rem;
   }
+}
+
+#page-title {
+  color: $primary-color;
 }
 
 .page__hero {
@@ -339,7 +344,6 @@ body {
     font-size: $type-size-6;
   }
 }
-
 
 .page__taxonomy-item {
   display: inline-block;
