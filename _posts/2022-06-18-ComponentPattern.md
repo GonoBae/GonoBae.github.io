@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
 
 Date: 2022-06-18
-published: false
+published: true
 ---
 
 # 📌 Component Pattern
