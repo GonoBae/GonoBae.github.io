@@ -4,7 +4,7 @@ title : "커맨드 패턴 (Command Pattern)"
 categories:
   - UnityStudy
 tags:
-  - [C#, CSharp, Study, Interview, Unity, Command]
+  - [C#, CSharp, Study, Interview, Command, Unity]
 
 toc: true
 toc_sticky: true
