@@ -2,9 +2,9 @@
 layout : single
 title : "컴포넌트 패턴 (Component Pattern)"
 categories:
-  - CSharpStudy
+  - UnityStudy
 tags:
-  - [C#, CSharp, Study, Interview]
+  - [C#, CSharp, Study, Interview, CommandPattern, Unity]
 
 toc: true
 toc_sticky: true
