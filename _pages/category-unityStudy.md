@@ -1,5 +1,5 @@
 ---
-title: "Unity 공부"
+title: "Unity Study"
 layout: archive
 permalink: categories/unityStudy
 author_profile: true
