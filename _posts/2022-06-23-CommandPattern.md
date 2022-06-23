@@ -22,11 +22,11 @@ published: false
 
 커맨드 패턴은 몇 가지 역할로 구성된다.
 
-> **Command**
+> **Abstract Command**
 > - 실행될 기능에 대한 인터페이스
 > - 실행될 기능을 execute()로 정의
 > 
-> **ConcreteCommand**
+> **Concrete Command**
 > - 실행되는 기능을 구현하는 클래스
 > - Receiver가 무엇을 처리해야 하는지 세부구현
 > 
