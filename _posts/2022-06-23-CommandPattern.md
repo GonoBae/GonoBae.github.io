@@ -21,8 +21,8 @@ published: false
 커맨드 패턴은 몇 가지 역할로 구성된다.
 
 >> **Command**
->> - 실행될 기능에 대한 인터페이스
->> - 실행될 기능을 execute()로 
+ - 실행될 기능에 대한 인터페이스
+ - 실행될 기능을 execute()로 
 >> **ConcreteCommand**
 >> **Invoker**
 >> **Receiver**
