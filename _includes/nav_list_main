@@ -47,10 +47,11 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Unity</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Unity" %}
-                        <li><a href="/categories/unity" class=""> Unity Study ({{category[1].size}})</a></li>
+                    {% if category[0] == "UnityStudy" %}
+                        <li><a href="/categories/codingTest" class=""> UnityStudy ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
