@@ -4,7 +4,7 @@ title : "컴포넌트 패턴 (Component Pattern)"
 categories:
   - UnityStudy
 tags:
-  - [C#, CSharp, Study, Interview, CommandPattern, Unity]
+  - [C#, CSharp, Study, Interview, Component, Unity]
 
 toc: true
 toc_sticky: true
