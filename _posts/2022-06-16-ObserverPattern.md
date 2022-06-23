@@ -2,9 +2,9 @@
 layout : single
 title : "옵저버 패턴 (Observer Pattern)"
 categories:
-  - CSharpStudy
+  - UnityStudy
 tags:
-  - [C#, CSharp, Study, Interview]
+  - [C#, CSharp, Study, Interview, Observer, Unity]
 
 toc: true
 toc_sticky: true
