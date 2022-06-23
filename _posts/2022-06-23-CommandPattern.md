@@ -2,9 +2,9 @@
 layout : single
 title : "커맨드 패턴 (Command Pattern)"
 categories:
-  - CSharpStudy
+  - UnityStudy
 tags:
-  - [C#, CSharp, Study, Interview]
+  - [C#, CSharp, Study, Interview, Unity, Command]
 
 toc: true
 toc_sticky: true
