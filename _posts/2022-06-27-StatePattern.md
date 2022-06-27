@@ -13,3 +13,4 @@ Date: 2022-06-27
 published: false
 ---
 
+# State Pattern
