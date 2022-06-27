@@ -1,6 +1,6 @@
 ---
 layout : single
-title : "최적화 방법"
+title : "State Pattern"
 categories:
   - UnityStudy
 tags:
