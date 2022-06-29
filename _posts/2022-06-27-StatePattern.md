@@ -4,13 +4,13 @@ title : "State Pattern"
 categories:
   - UnityStudy
 tags:
-  - [C#, CSharp, Study, Interview, Unity]
+  - [C#, CSharp, Study, Interview, Unity, StatePattern]
 
 toc: true
 toc_sticky: true
 
 Date: 2022-06-29
-published: false
+published: true
 ---
 
 # 📌 State Pattern
@@ -180,7 +180,7 @@ public class BoxThrowedAway : BoxBaseState
 }
 ```
 
-### 📝 
+### 📝 StateManager
 
 ```cs
 using UnityEngine;
