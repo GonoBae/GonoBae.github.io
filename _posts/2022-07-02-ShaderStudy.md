@@ -59,7 +59,7 @@ Vertex Position 의 중심 = 해당 메시의 피벗 위치
 ![ScreenshotASE](https://user-images.githubusercontent.com/87271529/176941035-b90bfb2f-ee8e-494b-982c-dc3eca1590b8.png)
 
 ### 💻 Execute
-![3](https://user-images.githubusercontent.com/87271529/176941048-6d590bb4-481a-4d1d-bd7d-c4622044f8c8.gif)
+![4](https://user-images.githubusercontent.com/87271529/176944840-7d245a09-6b1f-4e77-9747-2efdf656f78c.gif)
 
 자기 자신의 기준 (1, 0, 0) 을 기준으로 행동을 반복한다.
 
