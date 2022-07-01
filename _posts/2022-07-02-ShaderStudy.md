@@ -53,6 +53,8 @@ Vertex Position 의 중심 = 해당 메시의 피벗 위치
 
 (1, 0, 0) 에 위치함에도 (0, 0, 0) 을 기준으로 행동을 반복한다.
 
+## 📝 Vertex Position
+
 ### 📋 Shader Graph
 ![ScreenshotASE](https://user-images.githubusercontent.com/87271529/176941035-b90bfb2f-ee8e-494b-982c-dc3eca1590b8.png)
 
