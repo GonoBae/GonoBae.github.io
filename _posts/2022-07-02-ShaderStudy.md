@@ -83,7 +83,7 @@ Vertex Position 의 중심 = 해당 메시의 피벗 위치
 Offset 을 생각하고 노드를 구성하게 되면 다음과 같다.
 
 ## 📝 Shader Graph (Offset 고려/World Position)
-Vertex Position 은 자기 위치에서 Scale -1 ~ 1 을 반복하기에 촬영에도 티가 안난다.
+Vertex Position 은 자기 위치에서 Scale -1 ~ 1 을 반복하기에 눈으로  티가 안난다.
 
 그래서 World Position 으로 해보았다.
 
