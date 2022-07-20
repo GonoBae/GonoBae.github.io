@@ -84,7 +84,14 @@
                         <li><a href="/categories/book" class=""> 책 읽기 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>    
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "WiseSaying" %}
+                        <li><a href="/categories/wiseSaying" class=""> 기억하고 싶은 말 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
       </li>
   </ul>
 </nav>
