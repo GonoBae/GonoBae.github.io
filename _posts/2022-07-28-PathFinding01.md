@@ -158,10 +158,10 @@ Node.cs
 ```cs
 public class Node
 {
-	public Vector3 _worldPos;
-	public int _gridX;
-	public int _gridY;
-	public bool _walkable;
+  public Vector3 _worldPos;
+  public int _gridX;
+  public int _gridY;
+  public bool _walkable;
 	
   public Node(Vector3 worldPos, int gridX, int gridY, bool walkable)
 	{
