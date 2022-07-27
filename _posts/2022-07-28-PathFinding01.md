@@ -186,12 +186,12 @@ public class MyGrid : MonoBehaviour
 	int _gridSizeX , _gridSizeY;
 	
   void Awake()
-	{
+  {
 		// 그대로
-	}
+  }
 	
   void CreateGrid()
-	{
+  {
     // 위는 그대로
     Vector3 worldPos = 
       worldBottomLeft + Vector3.right * (x * _nodeDiameter + _nodeRadius)
@@ -199,7 +199,7 @@ public class MyGrid : MonoBehaviour
     // 아래 변경
 		bool walkable = !(Physics.CheckSphere(worldPos, _nodeRadius, _unwalkableMask));
 		_grid[x, y] = new Node(worldPos, x, y, walkable);
-	}
+  }
   
   private void OnDrawGizmos()
   {
