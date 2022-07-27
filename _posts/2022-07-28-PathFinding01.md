@@ -197,8 +197,8 @@ public class MyGrid : MonoBehaviour
       worldBottomLeft + Vector3.right * (x * _nodeDiameter + _nodeRadius)
       + Vector3.forward * (y * _nodeDiameter + _nodeRadius);
     // 아래 변경
-		bool walkable = !(Physics.CheckSphere(worldPos, _nodeRadius, _unwalkableMask));
-		_grid[x, y] = new Node(worldPos, x, y, walkable);
+    bool walkable = !(Physics.CheckSphere(worldPos, _nodeRadius, _unwalkableMask));
+    _grid[x, y] = new Node(worldPos, x, y, walkable);
   }
   
   private void OnDrawGizmos()
