@@ -187,7 +187,7 @@ public class MyGrid : MonoBehaviour
 	
   void Awake()
   {
-		// 그대로
+    // 그대로
   }
 	
   void CreateGrid()
