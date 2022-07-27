@@ -185,12 +185,12 @@ public class MyGrid : MonoBehaviour
 	float _nodeDiameter;
 	int _gridSizeX , _gridSizeY;
 	
-	void Awake()
+  void Awake()
 	{
 		// 그대로
 	}
 	
-	void CreateGrid()
+  void CreateGrid()
 	{
     {
       {
@@ -203,8 +203,8 @@ public class MyGrid : MonoBehaviour
       }
     }
 	}
-	
-	private void OnDrawGizmos()
+  
+  private void OnDrawGizmos()
 	{
     // Gizmos.color = Color.white; 을 지우고 아랫줄 추가
 		Gizmos.color = (node._walkable) ? Color.white : Color.red;
