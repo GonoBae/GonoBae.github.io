@@ -164,12 +164,12 @@ public class Node
   public bool _walkable;
 	
   public Node(Vector3 worldPos, int gridX, int gridY, bool walkable)
-	{
-		_worldPos = worldPos;
-		_gridX = gridX;
-		_gridY = gridY;
-		_walkable = walkable;
-	}
+  {
+    _worldPos = worldPos;
+    _gridX = gridX;
+    _gridY = gridY;
+    _walkable = walkable;
+  }
 }
 ```
 
@@ -192,23 +192,20 @@ public class MyGrid : MonoBehaviour
 	
   void CreateGrid()
 	{
-    {
-      {
-				Vector3 worldPos = 
-					worldBottomLeft + Vector3.right * (x * _nodeDiameter + _nodeRadius)
-					+ Vector3.forward * (y * _nodeDiameter + _nodeRadius);
-        // 아래 변경
-				bool walkable = !(Physics.CheckSphere(worldPos, _nodeRadius, _unwalkableMask));
-				_grid[x, y] = new Node(worldPos, x, y, walkable);
-      }
-    }
+    // 위는 그대로
+    Vector3 worldPos = 
+      worldBottomLeft + Vector3.right * (x * _nodeDiameter + _nodeRadius)
+      + Vector3.forward * (y * _nodeDiameter + _nodeRadius);
+    // 아래 변경
+		bool walkable = !(Physics.CheckSphere(worldPos, _nodeRadius, _unwalkableMask));
+		_grid[x, y] = new Node(worldPos, x, y, walkable);
 	}
   
   private void OnDrawGizmos()
-	{
+  {
     // Gizmos.color = Color.white; 을 지우고 아랫줄 추가
-		Gizmos.color = (node._walkable) ? Color.white : Color.red;
-	}
+    Gizmos.color = (node._walkable) ? Color.white : Color.red;
+  }
 }
 ```
 
