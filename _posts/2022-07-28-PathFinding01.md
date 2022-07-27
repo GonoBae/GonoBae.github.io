@@ -9,8 +9,8 @@ tags:
 toc: true
 toc_sticky: true
 
-Date: 2022-07-25
-published: false
+Date: 2022-07-28
+published: true
 ---
 
 # 📌 A* Algorithm
@@ -146,3 +146,81 @@ private void OnDrawGizmos()
 ![2](https://user-images.githubusercontent.com/87271529/181212155-2c0ce00b-5c9a-424c-9998-59ae3f7a1c43.gif)
 
 ## 📝 장애물 체크
+이제 하나의 Node 위에 장애물이 존재하는지 체크를 해주어야 한다.
+
+그래야 player 가 갈 수 있는지 없는지를 체크할 수 있기 때문!
+
+약간의 코드만 추가해주면 된다.
+
+### 📋 Code
+
+Node.cs
+```cs
+public class Node
+{
+	public Vector3 _worldPos;
+	public int _gridX;
+	public int _gridY;
+	public bool _walkable;
+	
+  public Node(Vector3 worldPos, int gridX, int gridY, bool walkable)
+	{
+		_worldPos = worldPos;
+		_gridX = gridX;
+		_gridY = gridY;
+		_walkable = walkable;
+	}
+}
+```
+
+Grid.cs
+```cs
+public class MyGrid : MonoBehaviour
+{
+	[SerializeField] bool _displayGizmos;
+	[SerializeField] Vector2 _gridSize;
+	[SerializeField] float _nodeRadius;
+	[SerializeField] LayerMask _unwalkableMask;
+	Node[,] _grid;
+	float _nodeDiameter;
+	int _gridSizeX , _gridSizeY;
+	
+	void Awake()
+	{
+		// 그대로
+	}
+	
+	void CreateGrid()
+	{
+    {
+      {
+				Vector3 worldPos = 
+					worldBottomLeft + Vector3.right * (x * _nodeDiameter + _nodeRadius)
+					+ Vector3.forward * (y * _nodeDiameter + _nodeRadius);
+        // 아래 변경
+				bool walkable = !(Physics.CheckSphere(worldPos, _nodeRadius, _unwalkableMask));
+				_grid[x, y] = new Node(worldPos, x, y, walkable);
+      }
+    }
+	}
+	
+	private void OnDrawGizmos()
+	{
+    // Gizmos.color = Color.white; 을 지우고 아랫줄 추가
+		Gizmos.color = (node._walkable) ? Color.white : Color.red;
+	}
+}
+```
+
+### 💻 Execute
+
+![3](https://user-images.githubusercontent.com/87271529/181285662-59bbd2b5-e286-4ff1-88bd-76ce516484ca.gif)
+
+CheckSphere 의 경우 반지름 0.5 로 체크를 하기 때문에
+
+장애물이 칸을 조금이라도 넘어가면 옆칸도 이동이 불가능하다고 나온다.
+
+```cs
+bool walkable = !(Physics.CheckSphere(worldPos, _nodeRadius, _unwalkableMask));
+```
+부분의 radius 부분을 radius - 0.2f 정도로 검사범위를 좁혀주면 조금 더 여유롭게 검사하게 된다.
