@@ -23,7 +23,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Coding Test</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CodingTest" %}
@@ -31,7 +30,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">C++</span>
+        <span class="nav__sub-title">C++ & C#</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CppStudy" %}
@@ -39,7 +38,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">C#</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CSharpStudy" %}
@@ -59,6 +57,21 @@
                 {% for category in site.categories %}
                     {% if category[0] == "AmplifyShader" %}
                         <li><a href="/categories/amplifyShader" class=""> Amplify Shader ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">My Game</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ToDream" %}
+                        <li><a href="/categories/todream" class=""> To Dream ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "PoliceAndThief" %}
+                        <li><a href="/categories/policeandthief" class=""> Police & Thief ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
