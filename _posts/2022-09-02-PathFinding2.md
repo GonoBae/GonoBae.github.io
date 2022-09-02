@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
 
 Date: 2022-09-02
-published: 
+published: true
 ---
 
 # 📌 A* Algorithm
