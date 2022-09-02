@@ -39,23 +39,24 @@ public Node NodeFromWorldPoint(Vector3 worldPosition)
 
 private void OnDrawGizmos()
 {
-	Gizmos.DrawWireCube(transform.position, new Vector3(_gridSize.x, 0.5f, _gridSize.y));
-	if(_grid != null && _displayGizmos)
-	{
-		Node playerNode = NodeFromWorldPoint(_player.position);
-		foreach(var node in _grid)
-		{
-			Gizmos.color = (node._walkable) ? Color.white : Color.red;
+  Gizmos.DrawWireCube(transform.position, new Vector3(_gridSize.x, 0.5f, _gridSize.y));
+  if(_grid != null && _displayGizmos)
+  {
+    Node playerNode = NodeFromWorldPoint(_player.position);
+    foreach(var node in _grid)
+    {
+      Gizmos.color = (node._walkable) ? Color.white : Color.red;     
       
       // 추가된 부분
-			if(playerNode == node) // 플레이어가 서있는 노드가 현재 그려지고 있는 노드와 같다면
-			{
-				Gizmos.color = Color.cyan; // 색을 바꿔라
-			}
+      if(playerNode == node) // 플레이어가 서있는 노드가 현재 그려지고 있는 노드와 같다면
+      {
+        Gizmos.color = Color.cyan; // 색을 바꿔라
+      }
       // 추가 끝
-			Gizmos.DrawCube(node._worldPos, Vector3.one * (_nodeDiameter - 0.1f));
-		}
-	}
+
+      Gizmos.DrawCube(node._worldPos, Vector3.one * (_nodeDiameter - 0.1f));
+    }
+  }
 }
 ```
 
