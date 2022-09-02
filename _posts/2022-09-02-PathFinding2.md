@@ -28,13 +28,13 @@ public Transform _player;
 
 public Node NodeFromWorldPoint(Vector3 worldPosition)
 {
-	float percentX = (worldPosition.x + _gridSize.x * 0.5f) / _gridSize.x;
-	float percentY = (worldPosition.z + _gridSize.y * 0.5f) / _gridSize.y;
+  float percentX = (worldPosition.x + _gridSize.x * 0.5f) / _gridSize.x;
+  float percentY = (worldPosition.z + _gridSize.y * 0.5f) / _gridSize.y;
 		
-	int x = Mathf.FloorToInt(_gridSizeX * percentX);
-	int y = Mathf.FloorToInt(_gridSizeY * percentY);
+  int x = Mathf.FloorToInt(_gridSizeX * percentX);
+  int y = Mathf.FloorToInt(_gridSizeY * percentY);
 		
-	return _grid[x, y];
+  return _grid[x, y];
 }
 
 private void OnDrawGizmos()
