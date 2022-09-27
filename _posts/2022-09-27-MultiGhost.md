@@ -73,18 +73,18 @@ private void RPC_TakeDamage()
 {
   _playerLife = PlayerLife.Ghost;
 	
-	if (_pv.IsMine)
-	{
-		ChangeMaterial(_bodyGhost, _headGhost);
-		RemoveGravityCollider();
-	}
-	else
-	{
-		_ani.SetTrigger("Hit");
-		GetComponent<PhotonTransformView>().enabled = false;
-		GetComponent<CapsuleCollider>().enabled = false;
-	}
-	GetComponent<PhotonAnimatorView>().enabled = false;
+  if (_pv.IsMine)
+  {
+    ChangeMaterial(_bodyGhost, _headGhost);
+    RemoveGravityCollider();
+  }
+  else
+  {
+    _ani.SetTrigger("Hit");
+    GetComponent<PhotonTransformView>().enabled = false;
+    GetComponent<CapsuleCollider>().enabled = false;
+  }
+  GetComponent<PhotonAnimatorView>().enabled = false;
 }
 ```
 
