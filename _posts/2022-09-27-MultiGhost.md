@@ -57,21 +57,21 @@ public Material _headGhost;
 
 private void Awake()
 {
-	_pv = GetComponent<PhotonView>();
-	_bodyGhost = Resources.Load<Material>("BodyGhost");
-	_headGhost = Resources.Load<Material>("HeadGhost");
+  _pv = GetComponent<PhotonView>();
+  _bodyGhost = Resources.Load<Material>("BodyGhost");
+  _headGhost = Resources.Load<Material>("HeadGhost");
 }
 
 public void TakeDamage(string attacker)
 {
-	_pv.RPC("RPC_TakeDamage", RpcTarget.All);
+  _pv.RPC("RPC_TakeDamage", RpcTarget.All);
 }
 
 // 내 화면 : 고스트 , 다른 화면 : 시체
 [PunRPC]
 private void RPC_TakeDamage()
 {
-	_playerLife = PlayerLife.Ghost;
+  _playerLife = PlayerLife.Ghost;
 	
 	if (_pv.IsMine)
 	{
