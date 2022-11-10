@@ -33,6 +33,13 @@
         <span class="nav__sub-title">C++ & C#</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "Common" %}
+                        <li><a href="/categories/common" class=""> 공통 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "CppStudy" %}
                         <li><a href="/categories/cppStudy" class=""> C++ Study ({{category[1].size}})</a></li>
                     {% endif %}
