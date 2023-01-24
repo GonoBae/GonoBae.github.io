@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "언리얼 블루프린트"
+title: "언리얼 Moving Platform"
 categories:
   - UnRealStudy
 tags:
