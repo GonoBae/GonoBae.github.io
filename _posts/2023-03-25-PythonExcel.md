@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Python Excel 다루기"
+title: "Python Excel 읽기"
 categories:
   - PythonStudy
 tags:
@@ -95,6 +95,7 @@ for path, dirs, files in os.walk(excel_folder):
 ```
 이전에 사용했던 `read_excel()`함수를 사용하면 다음과 같이 출력된다.
 <img width="502" alt="1" src="https://user-images.githubusercontent.com/87271529/227719459-a24de038-b080-4e97-96f5-d4398b658fb5.png">
+
 테이블 형식으로 이쁘게 출력되지 않는다.
 
 방법을 조금 바꿔서 출력해보자.
