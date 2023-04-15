@@ -42,7 +42,9 @@ for file in os.listdir(path):
 
 참고로 Unixtime 은 1970년 1월 1일부터 몇 초가 흘렀는지를 나타내는 수치라고 한다.
 
-`days_ago_created` 을 보면 `(today - file_creation_date)` 가 있는데 이는 현재 시간에서 파일의 생성 시간이 얼마나 흘렀는지 초 단위로 출력하기 때문에 
+`days_ago_created` 을 보면 `(today - file_creation_date)` 가 있는데
+
+이는 현재 시간에서 파일의 생성 시간이 얼마나 흘렀는지 초 단위로 출력하기 때문에 
 
 `.days` 를 통해 하루 단위로 출력하게 된다.
 
