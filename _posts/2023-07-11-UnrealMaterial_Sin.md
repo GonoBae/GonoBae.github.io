@@ -41,9 +41,13 @@ V 부분은 0 ~ 1 로 증가하기에 이와 합하게 되면 왼쪽 부분은 �
 
 V 가 그라데이션 이기에 Distance 0.5 를 하게 되면 중간 부분에서 곡선 모양이 나타난다.
 
+![3](https://github.com/GonoBae/GonoBae.github.io/assets/87271529/879ca832-3cdf-4c71-b194-5ad1d2639f4f)
+
 <img src="https://github.com/GonoBae/UEStudy/assets/87271529/0bf5db30-0308-4092-8737-5f29103567e5" width="400" height="300">
 
 각 부분에 색을 곱해주고 Time 을 U 에 더해줌으로써 움직임을 준다.
 
 ## 📋 결과
-![2](https://github.com/GonoBae/UEStudy/assets/87271529/97c3d01a-9ca7-4558-bfc0-00452ae7b881)
+![4](https://github.com/GonoBae/UEStudy/assets/87271529/97c3d01a-9ca7-4558-bfc0-00452ae7b881)
+
+곱하거나 더한 값을 파라미터로 빼면 모양, 굵기, 속도 등을 자유롭게 조절할 수 있다.
