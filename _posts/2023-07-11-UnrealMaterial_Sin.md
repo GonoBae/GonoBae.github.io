@@ -15,7 +15,7 @@ published: true
 # 📌 Unreal Material
 
 ## 📋 Oscilloscope
-<img src=https://github.com/GonoBae/UEStudy/assets/87271529/c214a28e-2b94-4e0a-ad7f-954b544c0184 width=400 height=300>
+<img src="https://github.com/GonoBae/UEStudy/assets/87271529/c214a28e-2b94-4e0a-ad7f-954b544c0184" width="400" height="300">
 
 오실로스코프의 화면과 같이 움직이는 사인파를 만들 일이 있을 수도 있다.
 
@@ -41,7 +41,7 @@ V 부분은 0 ~ 1 로 증가하기에 이와 합하게 되면 왼쪽 부분은 �
 
 V 가 그라데이션 이기에 Distance 0.5 를 하게 되면 중간 부분에서 곡선 모양이 나타난다.
 
-<img src=https://github.com/GonoBae/UEStudy/assets/87271529/0bf5db30-0308-4092-8737-5f29103567e5 width=400 height=300>
+<img src="https://github.com/GonoBae/UEStudy/assets/87271529/0bf5db30-0308-4092-8737-5f29103567e5" width="400" height="300">
 
 각 부분에 색을 곱해주고 Time 을 U 에 더해줌으로써 움직임을 준다.
 
