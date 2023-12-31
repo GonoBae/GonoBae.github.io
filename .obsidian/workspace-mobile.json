@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a3b20fab4bea1230",
+        "id": "91e2fd211a7deac1",
         "type": "tabs",
         "children": [
           {
-            "id": "53986de08cfa556d",
+            "id": "c86bfc5e9210624e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-12-31-Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "_posts/2023-12-31-Obsidian.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "_posts/2023-12-31-Obsidian.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -108,7 +114,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "_posts/2023-12-31-Obsidian.md"
+          }
         }
       }
     ],
@@ -124,6 +132,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "53986de08cfa556d",
-  "lastOpenFiles": []
+  "active": "c86bfc5e9210624e",
+  "lastOpenFiles": [
+    "screenshot.png",
+    "_posts/2023-12-31-Obsidian.md",
+    "_posts/2023-06-09-VSCode_Library.md",
+    "2023-12-31.md",
+    "Rakefile",
+    "CHANGELOG.md",
+    "assets/js/vendor/jquery/jquery-3.5.1.js",
+    "assets/js/vendor/jquery",
+    "assets/js/custom/dark-theme.js",
+    "assets/js/plugins/gumshoe.js",
+    "assets/js/plugins/smooth-scroll.js",
+    "assets/js/plugins/jquery.greedy-navigation.js",
+    "assets/js/plugins/jquery.magnific-popup.js",
+    "assets/js/plugins/jquery.fitvids.js",
+    "assets/js/plugins/jquery.ba-throttle-debounce.js",
+    "assets/images/profile.jpg",
+    "assets/images/Profile.jpg",
+    "profile.jpg",
+    "README.md",
+    "_pages/category-common.md",
+    "_pages/about.md",
+    "_pages/category-book.md",
+    "_pages/category-wiseSaying.md",
+    "_pages/category-knowledge.md",
+    "_pages/category-policeandthief.md",
+    "_pages/category-pythonStudy.md",
+    "_pages/category-codingTest.md",
+    "_pages/category-cppStudy.md",
+    "_pages/category-csharpStudy.md",
+    "_pages/category-unrealStudy.md",
+    "_pages/category-unityStudy.md",
+    "_pages/category-amplifyShader.md",
+    "_pages/tag-archive.md",
+    "_pages/category-algorithm.md",
+    "_pages/category-archive.md",
+    "_pages/category-todream.md",
+    "img/Graph.png",
+    "docs/assets/images/android-chrome-144x144.png",
+    "docs/assets/images/air-skin-archive-large.png",
+    "docs/assets/images/mm-theme-post-750.jpg",
+    "docs/assets/images/mm-ui-text-labels.jpg",
+    "docs/assets/images/favicon-32x32.png",
+    "docs/assets/images/markup-syntax-highlighting-teaser.jpg",
+    "docs/_pages/sitemap.md",
+    "docs/_pages/archive-layout-with-content.md",
+    "docs/_pages/about.md"
+  ]
 }
