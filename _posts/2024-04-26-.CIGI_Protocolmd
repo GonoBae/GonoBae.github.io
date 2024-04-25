@@ -14,7 +14,7 @@ published: true
 
 # 📌 CIGI
 
- - `호스트`와 `IG` 사이의 인터페이스
+ `호스트`와 `IG` 사이의 인터페이스
 
  호스트 : 시뮬레이션되는 장치에 대한 정보를 제공하는 계산 시스템
 
@@ -42,10 +42,10 @@ Unreal 에서는 Object Deliverer 라는 무료 Plugin 을 사용하여 UDP 통�
 <figcaption>CIGI PDF</figcaption>
 
 <img src="https://github.com/GonoBae/B_DCS/assets/87271529/8adac6b0-7c46-4ac5-bc0e-b8cd1882d5a6" align="center" width="50%" height="50%">
-<figcaption>CIGI PDF</figcaption>
+<figcaption>CIGI Host Emulator</figcaption>
 
 <img src="https://github.com/GonoBae/B_DCS/assets/87271529/bedc05b7-b49e-4ce2-9a3e-423991498f04" align="center" width="50%" height="50%">
-<figcaption>CIGI PDF</figcaption>
+<figcaption>CIGI Host Emulator Source</figcaption>
 
 <img src="https://github.com/GonoBae/B_DCS/assets/87271529/cdc4965e-ec6c-46f1-a3e2-36a040d7a70e" align="center" width="50%" height="50%">
-<figcaption>CIGI PDF</figcaption>
+<figcaption>Unreal ObjectDeliverer</figcaption>
