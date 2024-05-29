@@ -78,6 +78,7 @@ dtparam=pciex1_gen=3
 
 ### 케이스
 ![IMG_0038](https://github.com/GonoBae/GonoBae.github.io/assets/87271529/ec5cf9c5-955d-43a3-b4b8-ed3890ad0dbc)
+
 라즈베리 파이5 와 호환되는 케이스 중 가장 예쁘다고 생각했다.
 
 (쿨링 기능까지 갖춘 케이스가 없었다.)
