@@ -57,6 +57,25 @@ SSD HAT 모듈은 여러가지가 있었지만 가장 무난한 `X1001`을 선�
 
 pcie 3.0 설정을 해주어야 속도를 올릴 수 있다.
 
+```bash
+# EEPROM 설정 창 열기
+sudo rpi-eeprom-config --edit
+
+BOOT_ORDER=0xf416
+```
+기존 : BOOT_ORDER=0xf461 (MciroSD -> PCIe -> USB | 반복)
+
+변경 : BOOT_ORDER=0xf416 (PCIe -> MciroSD -> USB | 반복)
+
+
+```bash
+# 라즈베리파이 설정 열기
+sudo nano /boot/firmware/config.txt
+
+# 하단에 아래 (PCIe 3.0 사용) 명령어 추가
+dtparam=pciex1_gen=3
+```
+
 ### 케이스
 ![IMG_0038](https://github.com/GonoBae/GonoBae.github.io/assets/87271529/ec5cf9c5-955d-43a3-b4b8-ed3890ad0dbc)
 라즈베리 파이5 와 호환되는 케이스 중 가장 예쁘다고 생각했다.
