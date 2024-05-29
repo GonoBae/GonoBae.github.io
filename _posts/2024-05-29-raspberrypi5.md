@@ -63,6 +63,7 @@ sudo rpi-eeprom-config --edit
 
 BOOT_ORDER=0xf416
 ```
+
 기존 : BOOT_ORDER=0xf461 (MciroSD -> PCIe -> USB | 반복)
 
 변경 : BOOT_ORDER=0xf416 (PCIe -> MciroSD -> USB | 반복)
