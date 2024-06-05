@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Raspberry pi5 _ ubuntu"
+title: "Raspberry pi5 _ ubuntu _ ssh"
 categories:
   - Raspberry pi5
 tags:
